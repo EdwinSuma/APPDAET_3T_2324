@@ -18,6 +18,9 @@ with open("browsers.csv") as csvfile:
 
 # 1 Print all browsers that run on windows
 print("These browsers can be installed on Windows Machines: ")
+for platform in browser_name:
+    print(browser_name("Windows"))
+
 #add print statement here
 
 # 2 - Print all browsers that can only be ran on exactly one platform
